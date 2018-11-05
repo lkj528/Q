@@ -72,11 +72,12 @@
             this.txtMessage.Size = new System.Drawing.Size(184, 21);
             this.txtMessage.TabIndex = 4;
             this.txtMessage.Text = "Oracle Java";
+            
             // 
             // chkItalic
             // 
             this.chkItalic.AutoSize = true;
-            this.chkItalic.Location = new System.Drawing.Point(367, 33);
+            this.chkItalic.Location = new System.Drawing.Point(367, 32);
             this.chkItalic.Name = "chkItalic";
             this.chkItalic.Size = new System.Drawing.Size(60, 16);
             this.chkItalic.TabIndex = 3;

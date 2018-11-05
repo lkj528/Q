@@ -49,6 +49,8 @@
             this.btnDiv = new System.Windows.Forms.Button();
             this.btnRoot = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnSquare = new System.Windows.Forms.Button();
+            this.btnDiv1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnC
@@ -258,11 +260,33 @@
             this.textBox1.Size = new System.Drawing.Size(363, 21);
             this.textBox1.TabIndex = 30;
             // 
+            // btnSquare
+            // 
+            this.btnSquare.Location = new System.Drawing.Point(299, 262);
+            this.btnSquare.Name = "btnSquare";
+            this.btnSquare.Size = new System.Drawing.Size(86, 31);
+            this.btnSquare.TabIndex = 31;
+            this.btnSquare.Text = "Square";
+            this.btnSquare.UseVisualStyleBackColor = true;
+            this.btnSquare.Click += new System.EventHandler(this.btnSquare_Click);
+            // 
+            // btnDiv1
+            // 
+            this.btnDiv1.Location = new System.Drawing.Point(207, 262);
+            this.btnDiv1.Name = "btnDiv1";
+            this.btnDiv1.Size = new System.Drawing.Size(86, 31);
+            this.btnDiv1.TabIndex = 32;
+            this.btnDiv1.Text = "1/x";
+            this.btnDiv1.UseVisualStyleBackColor = true;
+            this.btnDiv1.Click += new System.EventHandler(this.btnDiv1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 289);
+            this.ClientSize = new System.Drawing.Size(412, 328);
+            this.Controls.Add(this.btnDiv1);
+            this.Controls.Add(this.btnSquare);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnRoot);
             this.Controls.Add(this.btnDiv);
@@ -314,6 +338,8 @@
         private System.Windows.Forms.Button btnDiv;
         private System.Windows.Forms.Button btnRoot;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnSquare;
+        private System.Windows.Forms.Button btnDiv1;
     }
 }
 

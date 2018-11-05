@@ -171,6 +171,21 @@ namespace Cal
             count = 5;
         }
 
+        private void btnSquare_Click(object sender, EventArgs e)
+        {
+            num1 = float.Parse(textBox1.Text);
+            textBox1.Clear();
+            textBox1.Focus();
+            count = 6;
+        }
+
+        private void btnDiv1_Click(object sender, EventArgs e)
+        {
+            num1 = float.Parse(textBox1.Text);
+            textBox1.Clear();
+            textBox1.Focus();
+            count = 7;
+        }
 
         public void compute(int count)
         {
@@ -203,6 +218,14 @@ namespace Cal
                     break;
                 case 5:
                     answer = (float)Math.Sqrt(num1);
+                    textBox1.Text = answer.ToString();
+                    break;
+                case 6:
+                    answer = num1 * num1;
+                    textBox1.Text = answer.ToString();
+                    break;
+                case 7:
+                    answer = 1 / num1;
                     textBox1.Text = answer.ToString();
                     break;
                 default:

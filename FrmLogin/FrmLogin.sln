@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrmLogin", "FrmLogin\FrmLogin.csproj", "{2C1E49AC-BA34-4358-8FBE-9981A89CAF1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log", "Log\Log.csproj", "{A0CD78DB-95F3-4595-9110-E7B3F2D22B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication7", "ConsoleApplication7\ConsoleApplication7.csproj", "{A235E698-6654-4B5D-BCAA-FDF2A0DEEB34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C1E49AC-BA34-4358-8FBE-9981A89CAF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1E49AC-BA34-4358-8FBE-9981A89CAF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1E49AC-BA34-4358-8FBE-9981A89CAF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C1E49AC-BA34-4358-8FBE-9981A89CAF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0CD78DB-95F3-4595-9110-E7B3F2D22B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CD78DB-95F3-4595-9110-E7B3F2D22B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CD78DB-95F3-4595-9110-E7B3F2D22B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CD78DB-95F3-4595-9110-E7B3F2D22B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A235E698-6654-4B5D-BCAA-FDF2A0DEEB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A235E698-6654-4B5D-BCAA-FDF2A0DEEB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A235E698-6654-4B5D-BCAA-FDF2A0DEEB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A235E698-6654-4B5D-BCAA-FDF2A0DEEB34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53A4CDE0-7256-4C48-A751-B99B833FE2F7}
+	EndGlobalSection
+EndGlobal

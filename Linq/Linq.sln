@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupBy2", "GroupBy2\GroupB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Join", "Join\Join.csproj", "{62D33323-A8A5-44C2-B92F-230F944E5F64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectMany", "SelectMany\SelectMany.csproj", "{E3802C74-1AF0-4203-A6F5-42092F07CA9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{62D33323-A8A5-44C2-B92F-230F944E5F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62D33323-A8A5-44C2-B92F-230F944E5F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62D33323-A8A5-44C2-B92F-230F944E5F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3802C74-1AF0-4203-A6F5-42092F07CA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3802C74-1AF0-4203-A6F5-42092F07CA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3802C74-1AF0-4203-A6F5-42092F07CA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3802C74-1AF0-4203-A6F5-42092F07CA9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
